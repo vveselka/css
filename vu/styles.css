@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+section div {
+  background-color: rgba(90, 90, 90, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+section:nth-of-type(1) {
+  background-image: url("https://www.ultimatekilimanjaro.com/blog/wp-content/uploads/2015/12/shutterstock_1344704975.jpg");
+}
+
+section:nth-of-type(2) {
+  background-image: url("https://patfalvey.com/wp-content/uploads/2017/12/MG_0846.jpg");
+}
+
+section:nth-of-type(3) {
+  background-image: url("https://www.adventureconsultants.com/assets/Uploads/Europe/Mont-Blanc/Olivier-Baron-view-from-Mont-blanc-summit.jpg");
+}
+section:nth-of-type(4) {
+  background-image: url("http://www.mountainsoftravelphotos.com/Everest/Best/slides/Gokyo%205%20Scoundrels%20View%208-2%20Everest%20Close%20Up.jpg");
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+}
